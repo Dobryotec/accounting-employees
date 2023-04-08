@@ -1,10 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import React, { StrictMode } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./components/app/app";
+import { Header } from "./App";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+// const elem = <h2>Hello World!</h2>;
+
+// const elem = React.createElement("h2", { className: "true" }, "Hello World!");
+
+// const text = "Hello World!";
+
+// const elem = (
+//   <div>
+//     <h2 className="text">{text}</h2>
+//     <input type="text"></input>
+//     <button>Click</button>
+//   </div>
+// );
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
