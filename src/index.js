@@ -1,8 +1,7 @@
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./components/app/app";
-import { Header } from "./App";
+import React, { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './components/app/app';
 
 // const elem = <h2>Hello World!</h2>;
 
@@ -17,7 +16,7 @@ import { Header } from "./App";
 //     <button>Click</button>
 //   </div>
 // );
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <App />

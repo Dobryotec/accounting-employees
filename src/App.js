@@ -1,5 +1,4 @@
-import { Component, StrictMode } from "react";
-import "./App.css";
+import './App.css';
 
 // const Header = () => {
 //   return <h2>Hello World!</h2>;
